@@ -1,7 +1,7 @@
 
 #Prompt Engineering Langchain
 import os
-os.environ["OPENAI_API_KEY"] = ""
+os.environ["OPENAI_API_KEY"] = "Paste your API Key here"
 from langchain import PromptTemplate
 
 demo_template='''I want you to act as a acting financial advisor for people.
